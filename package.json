@@ -1,14 +1,23 @@
 {
-  "name": "zentohost.eu",
+  "name": "strona-zento-host",
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nyf-tech/strona-zento-host.git"
+  },
+  "author": "nyf",
   "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nyf-tech/strona-zento-host/issues"
+  },
+  "homepage": "https://github.com/nyf-tech/strona-zento-host#readme",
   "dependencies": {
-    "express": "^4.18.1"
+    "express": "^4.18.1",
+    "path": "^0.12.7"
   }
 }
